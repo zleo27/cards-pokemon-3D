@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    background-color: #868080;
+    background-image: url("https://images.hdqwalls.com/download/pokemon-1920x1080.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.overlay {
+    background-color: rgba(225,225, 255, 0.4);
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+}
+
+.card {
+    background-image: url(https://akamai.sscdn.co/uploadfile/letras/playlists/b/1/a/9/b1a9b5ab71a44e50893263a684b98353.jpg);
+    backdrop-filter: blur(5px);
+    min-width: 320px;
+    height: 450px;
+    box-shadow: 0px 0px 3px rgba(128, 16, 16, 0.104),
+    0px 0px 7.2px rgba(0,0,0,0.249), 0px 0px 13.6px rgba(0,0,0,0.175),
+    0px 0px 109px rgba(0,0,0,0.164);
+    border-radius: 18px;
+
+}
+
+.glare-container{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    border-radius: 18px;
+}
+
+.glare {
+    position: absolute;
+    left: 100%;
+    bottom: -50%;
+    width: 150%;
+    height: 150%;
+    background: rgba(225,225 255);
+    background: linear-gradient(90deg,rgba(255,255,255, 0.444) 0%,
+    rgba(255,255,255,0.249) 20%);
+    transform: rotateZ('35deg');
+    pointer-events: none;
+    filter: blur(4px);
+}
+
+.card-0 {
+    background-image: url(https://i.pinimg.com/564x/d2/6c/55/d26c55f0101f5fe4740e08820272e8cb.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0,76,255, 0.3);
+    
+}
+
+.card-1{
+    background-image: url(https://i.pinimg.com/564x/24/c8/b3/24c8b3e2fc286bfbaa79d6a35cd19685.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(rgb(255, 0, 0,0.23), green, blue, alpha);
+}
+.card-2{
+    background-image: url(https://i.pinimg.com/564x/3d/70/38/3d7038a0493ff93f4e8a85876d06d32d.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(rgb(255, 0, 0,0.23), green, blue, alpha);
+
+}
+
+.card-3{
+    background-image: url(https://i.pinimg.com/736x/20/ff/57/20ff572cb44af4b8cbc0a76242fd1dcf.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(rgb(255, 0, 0,0.23), green, blue, alpha);
+}
+
+.card-4{
+    background-image: url(https://http2.mlstatic.com/D_NQ_NP_888132-MLB40822591672_022020-O.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(rgb(255, 0, 0,0.23), green, blue, alpha);
+    translate: (x,y,z);
+}
+
+
+.wrapper{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-items:center;
+    align-items: center;
+    height:100vh;
+}
